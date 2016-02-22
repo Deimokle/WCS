@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+			<!-- Le script => clique montrer/cacher le texte informatif au niveau image. -->
+			<script>
+			$(document).ready(function(){
+   			$(".show_clown").click(function(){
+      		$(".hide_clown").toggle();
+   				 });
+			$(".show_magicien").click(function(){
+    		$(".hide_magicien").toggle();
+   				 });
+   			$(".show_acrobate").click(function(){
+    		$(".hide_acrobate").toggle();
+   				 });
+   			$(".show_feu").click(function(){
+    		$(".hide_feu").toggle();
+   				 });
+   			$(".show_jongleurs").click(function(){
+    		$(".hide_jongleurs").toggle();
+   				 });
+   			$(".show_ecuyer").click(function(){
+    		$(".hide_ecuyer").toggle();
+   				 });
+			});
+			</script>
+		<title>Welcome - Wild Circus</title>
+	</head>
+ 	<body>
+ 		<header>
+    		<h1>International</h1>
+    		<nav>
+    			<ul>
+      				<li><a href="index.html" class="menu">Home</a></li>
+      				<li><a href="persons.html" class="menu">Persons</a></li>
+      				<li><a href="animals.html" class="menu">Animals</a></li>
+      				<li><a href="next_tour.html" class="menu">Next tour</a></li>
+      				<li><a href="contact.html" class="menu">Contact us</a></li>
+    			</ul>
+    		</nav>
+		</header>
+		<section>
+				<h2>Who's working?</h2>
+				<div class="clown">
+					<!-- ici SPAN => est utilisé pour le script. -->
+					<p class="ruban"><span class="show_clown">Amoung our clowns</span> <br />
+					<span class="hide_clown" style="display:none">
+						You will find the white clown, who has appearance noble and overbearing. 
+						The august is totally impertinent, he destabilizes the white clown whose he is constantly fail he does. 
+						The counter-clown is blundered, he don't understand anything and forget everything. 
+						Any initiative taken by him, ends in disaster, restarting the laughter.
+					</span></p>
+				</div>
+				<div class="magicien">
+					<p class="ruban"><span class="show_magicien">Notre magicien</span> <br />
+					<span class="hide_magicien" style="display:none">bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla
+					</span></p>				
+				</div>
+				<div class="acrobate">
+					<p class="ruban"><span class="show_acrobate">Nos acrobates</span> <br />
+					<span class="hide_acrobate" style="display:none">bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla
+					</span></p>				
+				</div>
+				<div class="cracheur_de_feu">
+					<p class="ruban"><span class="show_feu">Notre cracheur de feu</span> <br />
+					<span class="hide_feu" style="display:none">bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla
+					</span></p>				
+				</div>
+				<div class="jongleurs">
+					<p class="ruban"><span class="show_jongleurs">Nos jongleurs</span> <br />
+					<span class="hide_jongleurs" style="display:none">bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla
+					</span></p>				
+				</div>
+				<div class="ecuyer">
+					<p class="ruban"><span class="show_ecuyer">Notre ecuyer</span> <br />
+					<span class="hide_ecuyer" style="display:none">bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla
+					</span></p>				
+				</div>
+		</section>
+		<footer>
+		</footer>
+	</body>
+</html>
