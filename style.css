@@ -1,0 +1,129 @@
+body {
+	background: #F8F8ED;
+	Width: cover;
+	margin: 0 auto;
+	padding: 0;
+}
+header{
+	text-align: center; 
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    color: white;
+    padding-top: 250px;
+}
+a:hover {
+	color: #EDD444;
+}
+h1 {
+    font-size: 70px;
+    color: white;
+}
+ul {
+    padding: 10px;  
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+	opacity: 04;
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+h2 {
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive, helvetica, sans-serif;
+	text-align: center;
+}
+article {
+	height: 800px;
+	width: 650px;
+	background-size: center;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	border-radius: 15px;
+	text-align: center;
+}
+h3 {
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive, helvetica, sans-serif;
+	text-align: center;
+}
+div {
+	height: 400px;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+footer {
+	height: 100px;
+	margin-bottom: 30px;
+}
+.menu {
+	color: white;
+	font-family: 'Indie Flower', cursive, helvetica, sans-serif;
+}
+.programme {
+	background-image: url("images/fond_programme.jpg");
+}
+.liste_programme {
+ 	padding-top: 150px;
+}
+.clown {
+	background-image: url("images/personnes/clown.jpg");
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.magicien {
+	background-image: url("images/personnes/magicien.jpg");
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.acrobate {
+	background-image: url("images/personnes/acrobate.jpg");
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.cracheur_de_feu {
+	background-image: url("images/personnes/cracheur_de_feu.jpg");
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.jongleurs {
+	background-image: url("images/personnes/jongleurs.jpg");
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.ecuyer {
+	background-image: url("images/personnes/ecuyer.jpg");
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.ruban {
+	color: rgba(255,255,255,1);
+	background: rgba(0,0,0,1);
+	background: -moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.3));
+	background: -webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.3));
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 28px;
+	text-align: justify;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+}
+.adresse_cirque {
+	color: black;
+}
+#contact {
+	height: 400px;
+	margin-top: 75px;
+}
